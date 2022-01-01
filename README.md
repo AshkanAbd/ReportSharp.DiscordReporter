@@ -17,7 +17,7 @@ Dotnet Core 3.1 or later
 You need to install and configure [ReportSharp](https://www.nuget.org/packages/ReportSharp/) `1.0.5` or later to use
 this package.
 
-#### Dotnet 5 or below:
+### Dotnet 5 or below:
 
 1) Add following lines to `ConfigureServices` method in `Startup` class:
 
