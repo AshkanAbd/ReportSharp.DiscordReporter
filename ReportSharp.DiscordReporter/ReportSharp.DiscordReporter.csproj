@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Library</OutputType>
+        <AssemblyName>ReportSharp.DiscordReporter</AssemblyName>
+        <RootNamespace>ReportSharp.DiscordReporter</RootNamespace>
+        <PackageId>ReportSharp.DiscordReporter</PackageId>
+        <Version>1.0.5.1</Version>
+        <Authors>AshkanAbd</Authors>
+        <Company>AshkanAbd</Company>
+        <PackageVersion>1.0.5.1</PackageVersion>
+        <Title>Discord reporter for ReportSharp package</Title>
+        <Description>Discord reporter for ReportSharp package</Description>
+        <PackageTags>Logger;Reporter;Crash detection;Crash;Crash detector;discord</PackageTags>
+        <RepositoryUrl>https://github.com/AshkanAbd/ReportSharp.DiscordReporter</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DSharpPlus" Version="4.1.0"/>
+        <PackageReference Include="ReportSharp" Version="1.0.5"/>
+    </ItemGroup>
+</Project>
